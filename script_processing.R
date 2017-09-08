@@ -5,7 +5,8 @@ require(NLP)
 require(openNLP)
 require(RWeka)
 require(qdap)
-
+require(ggmap) ## perhaps delete. Haven't used yet.
+require(markovchain)
 
 
 word_ann <- Maxent_Word_Token_Annotator()
